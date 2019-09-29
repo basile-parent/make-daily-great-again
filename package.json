@@ -1,5 +1,5 @@
 {
-  "name": "agile-tour-2019",
+  "name": "make-daily-great-again",
   "version": "1.0.0",
   "description": "Présentation Agile Tour 2019 - Faites vos p***** de daily correctement",
   "subdomain": "revealjs",
@@ -10,13 +10,13 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Basile Parent",
+    "email": "basile.parent.pro@gmail.com",
+    "web": "basile-parent.github.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/basile-parent/make-daily-great-again.git"
   },
   "engines": {
     "node": ">=9.0.0"
