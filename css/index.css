@@ -127,3 +127,18 @@ aside#watermark {
 #other-forms-of-daily li {
     list-style-type: disc;
 }
+
+#regle-de-trois h2, #regle-de-troie h2 {
+    font-size : 5em;
+    height : 600px;
+    line-height : 600px;
+    text-shadow : 0 0 2px #444, 0 0 4px #444, 0 0 6px #444
+}
+
+#regle-de-troie img {
+    position: absolute;
+    z-index : -1;
+    bottom : -30px;
+    right : -30px;
+    height: 250px;
+}
