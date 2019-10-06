@@ -124,6 +124,7 @@ aside#watermark {
     line-height : 40px;
 }
 
+#kpi-properties li,
 #other-forms-of-daily li {
     list-style-type: disc;
 }
