@@ -26,7 +26,7 @@ aside#watermark {
     color: #eee;
     font-family: "League Gothic", Impact, sans-serif;
     text-transform: uppercase;
-    font-size : 40px;
+    font-size : 60px;
 }
 
 #yugi_uno {
@@ -142,4 +142,8 @@ aside#watermark {
     bottom : -30px;
     right : -30px;
     height: 250px;
+}
+
+#source-link {
+    font-size : 30px;
 }
