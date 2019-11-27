@@ -3,6 +3,11 @@ body {
     background-size: cover;
 }
 
+.reveal .slide-background-content {
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 .reveal a {
     color : white;
     text-decoration: underline;
