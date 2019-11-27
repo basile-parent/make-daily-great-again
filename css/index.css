@@ -44,6 +44,10 @@ aside#watermark {
     margin-top: -250px;
 }
 
+#presentation #presentation-avatars {
+    display: inline-block;
+}
+
 #presentation figure {
     display : flex;
     flex-direction: row;
@@ -51,26 +55,47 @@ aside#watermark {
     justify-content: center;
 }
 
-#presentation figure #avatar {
+#presentation figcaption {
+    width : 450px;
+}
+
+#presentation img.avatar {
+    height: 200px;
     margin-right : 50px;
 }
 
-#presentation figure a {
+#presentation a {
     text-decoration: none;
     color : #b6b6b6;
 }
 
 #presentation aside {
     position : absolute;
-    bottom : 0;
+    top : 200px;
     right : 0;
     height : 70px;
     width : 70px;
     margin-top : -40px;
 }
 
+#presentation h2 {
+    font-size : 1.9em;
+    margin : 0;
+}
+#presentation h2:not(:first-of-type) {
+    margin-top : 50px;
+}
+#presentation h3 {
+    font-size : 1.2em;
+    margin : 0;
+}
+#presentation .twitter {
+    font-size : 0.8em;
+}
+
 #presentation #proxiad-logo {
     height : 60px;
+    margin-bottom : 50px;
 }
 
 #inversion img {
@@ -147,6 +172,12 @@ aside#watermark {
 #kpi-properties li,
 #other-forms-of-daily li {
     list-style-type: disc;
+}
+
+#other-forms-of-daily .focus {
+    margin : 35px 0 0 0;
+    font-size : 47px;
+    color: #13daec;
 }
 
 #regle-de-trois h2, #regle-de-troie h2 {
