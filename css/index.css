@@ -164,6 +164,14 @@ aside#watermark {
     height: 250px;
 }
 
+#questions aside {
+    position : absolute;
+    top : 25px;
+    right : 0;
+    height : 70px;
+    width : 70px;
+}
+
 #source-link {
     font-size : 30px;
 }
