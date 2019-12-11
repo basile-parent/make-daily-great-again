@@ -13,6 +13,10 @@ Pour visionner les slides, pas d'autre installation requise.
 Pour avoir accès à des fonctionnalités plus avancées (notes du speaker - PS elles sont moches -, timer, etc.),
 il faut installer les packages nodes via la commande `npm install`.
 
+### Branches
+- master : Slides de l'Agile Tour Lille
+- dome-event : Slides du meetup Proxiad.
+
 ## Utilisation
 Pour visionner les slides, vous pouvez ouvrir le fichier index.html dans votre navigateur 
 et naviguer avec les flèches (attention gauche-droite mais aussi haut-bas) 
