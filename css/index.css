@@ -33,7 +33,6 @@ aside#watermark {
     font-family: "League Gothic", Impact, sans-serif;
     text-transform: uppercase;
     font-size : 30px;
-    text-align: center;
 }
 
 aside#watermark a {
@@ -123,12 +122,21 @@ aside#watermark a {
     transition-delay: 3s;
 }
 
-#flat-burndown {
+.flat-burndown {
     position: absolute;
-    height: 450px;
+    height: 350px;
     top: 0;
     right: 0;
-    transform: rotateZ(5deg);
+}
+#flat-burndown-1 { transform: rotateZ(5deg); }
+#flat-burndown-2 { transform: rotateZ(-7deg); }
+#flat-burndown-3 { transform: rotateZ(2deg); }
+#flat-burndown-4 { transform: rotateZ(10deg); }
+#flat-burndown-5 { transform: rotateZ(-2deg); }
+#burnflat {
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 #three-damn-questions li,
@@ -143,7 +151,8 @@ aside#watermark a {
     display: block;
 }
 
-#three-damn-questions .question-meaning {
+#three-damn-questions .question-meaning,
+#other-forms-of-daily .focus-on-objective {
     color: var(--blue);
     font-size : 40px;
     line-height : 40px;
